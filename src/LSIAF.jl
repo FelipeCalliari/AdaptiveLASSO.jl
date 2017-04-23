@@ -44,7 +44,7 @@ function LSIAF{F<:AbstractFloat}(Y::Array{F})
     Filter = X[:, selection] * β_ols + Ym
 
     ## Timming
-    timeAdaLASSO = toc()
+    timeAdaLASSO = toq();
     error = sum( (Filter - Y0) .^ 2 )
     println("Finished LASSO with LMS approximation error of ", error, " and elapsed time of ", timeAdaLASSO, " seconds.")
 

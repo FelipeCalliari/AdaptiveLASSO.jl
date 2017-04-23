@@ -8,9 +8,9 @@ function adaLASSO{F<:AbstractFloat}(Y::Array{F})
     ## LASSO
     tic()
     B0TM, ~, bestB0TM, X, array_σ = CoordinateDescentTM(Y, n)
-    TimeLASSO = toc()
+    TimeLASSO = toq();
 
-    println("LASSO took ", TimeLASSO, "s")
+    # println("LASSO took ", TimeLASSO, "s")
 
     β_LASSO = B0TM[:, bestB0TM]
 
