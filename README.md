@@ -1,11 +1,11 @@
 # AdaptiveLASSO
 
-AdaptiveLASSO.jl is a Julia package for [...].
+AdaptiveLASSO.jl is a Julia package able to distinguish meaningful level shifts from typical signal fluctuations which, in a fiber monitoring context, is associated with the problem of identifying small losses within a noisy optical time-domain reflectometer (OTDR) profile. This is the Julia version of the original supplemental material for the paper ["Adaptive Filter for Automatic Identification of Mulitple Fiber Faults in a Noisy OTDR Profile"][linkartigo].
 
 <!---
 This package is a port of a Matlab code from ["adaLASSO Matlab Code"][linkcodematlab].
 
-It is originally a supplemental material for our paper ["TITULO PAPER"][linkpaper].
+
 --->
 
 ## Installing
@@ -61,4 +61,4 @@ Pkg.clone("git://github.com/FelipeCalliari/AdaptiveLASSO.jl.git")
 - [ ] Cite the paper
 
 [linkcodematlab]: https://github.com/Tungstenio/
-[linkpaper]: http://arxiv.org/pdf/
+[linkartigo]: http://ieeexplore.ieee.org/document/7471419/
