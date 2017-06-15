@@ -54,11 +54,5 @@ workspace()
 Pkg.clone("git://github.com/FelipeCalliari/AdaptiveLASSO.jl.git")
 ```
 
-## :blue_book: TODO
-
-- [ ] Write something about this package
-- [ ] Cite the url of the adaLASSO Matlab code
-- [ ] Cite the paper
-
 [linkcodematlab]: https://github.com/Tungstenio/
 [linkartigo]: http://ieeexplore.ieee.org/document/7471419/
